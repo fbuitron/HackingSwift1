@@ -22,6 +22,7 @@
 		7D22F33920A13E10004C6325 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D22F32F20A13E10004C6325 /* nssl0049.jpg */; };
 		7D22F33A20A13E10004C6325 /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D22F33020A13E10004C6325 /* nssl0043.jpg */; };
 		7D22F33C20A142FC004C6325 /* PicturesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D22F33B20A142FC004C6325 /* PicturesCell.swift */; };
+		7D22F33E20A1445F004C6325 /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D22F33D20A1445F004C6325 /* PictureDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		7D22F32F20A13E10004C6325 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
 		7D22F33020A13E10004C6325 /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
 		7D22F33B20A142FC004C6325 /* PicturesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesCell.swift; sourceTree = "<group>"; };
+		7D22F33D20A1445F004C6325 /* PictureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				7D22F31520A13D2E004C6325 /* AppDelegate.swift */,
 				7D22F33B20A142FC004C6325 /* PicturesCell.swift */,
 				7D22F31720A13D2E004C6325 /* ViewController.swift */,
+				7D22F33D20A1445F004C6325 /* PictureDetailViewController.swift */,
 				7D22F31920A13D2E004C6325 /* Main.storyboard */,
 				7D22F31C20A13D2F004C6325 /* Assets.xcassets */,
 				7D22F32120A13D2F004C6325 /* Info.plist */,
@@ -176,6 +179,7 @@
 			files = (
 				7D22F31820A13D2E004C6325 /* ViewController.swift in Sources */,
 				7D22F33C20A142FC004C6325 /* PicturesCell.swift in Sources */,
+				7D22F33E20A1445F004C6325 /* PictureDetailViewController.swift in Sources */,
 				7D22F31620A13D2E004C6325 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

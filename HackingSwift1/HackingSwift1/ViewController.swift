@@ -23,7 +23,8 @@ class ViewController: UITableViewController {
             }
         }
         self.tableView?.register(PicturesCell.self, forCellReuseIdentifier: "Picture")
-        print(pictures)
+        self.title = "Storm Viewer"
+        self.navigationController?.navigationBar.prefersLargeTitles = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,8 +38,15 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath);
+        cell.accessoryType = UITableViewCellAccessoryType.disclosureIndicator
         cell.textLabel?.text = self.pictures[indexPath.row]
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailVC = PictureDetailViewController()
+        detailVC.pictureName = pictures[indexPath.row]
+        self.navigationController?.pushViewController(detailVC, animated: true)
     }
 
 
